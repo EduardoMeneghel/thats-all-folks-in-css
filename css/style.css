@@ -1,0 +1,88 @@
+body, .container, html{
+    height: 100%;
+  }
+.container{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.circle{
+    position: fixed;
+    height: 15vw;
+    width: 15vw;
+    background-color: darkblue;
+    border-radius: 50%;
+    box-shadow: inset 0 0 200px 20px black;
+}
+
+.circle1{
+    position: fixed;
+    height: 25vw;
+    width: 25vw;
+    background-color: rgb(255, 128, 0);
+    border-radius: 50%;
+    box-shadow: inset 0 0 100px 20px rgb(130, 1, 1);
+}
+.circle2{
+    position: fixed;
+    height: 35vw;
+    width: 35vw;
+    background-color: rgb(255, 128, 0);
+    border-radius: 50%;
+    box-shadow: inset 0 0 100px 25px rgb(130, 1, 1);
+}
+.circle3{
+    position: fixed;
+    height: 50vw;
+    width: 50vw;
+    background-color: rgb(255, 128, 0);
+    border-radius: 50%;
+    box-shadow: inset 0 0 120px 25px rgb(130, 1, 1);
+}
+.circle4{
+    position: fixed;
+    height: 65vw;
+    width: 65vw;
+    background-color: rgb(255, 128, 0);
+    border-radius: 50%;
+    box-shadow: inset 0 0 120px 25px rgb(130, 1, 1);
+}
+.circle5{
+    position: fixed;
+    height: 80vw;
+    width: 80vw;
+    background-color: rgb(255, 128, 0);
+    border-radius: 50%;
+    box-shadow: inset 0 0 140px 30px rgb(130, 1, 1);
+}
+.circle6{
+    position: fixed;
+    height: 100vw;
+    width: 100vw;
+    background-color: rgb(255, 128, 0);
+    border-radius: 50%;
+    box-shadow: inset 0 0 140px 30px rgb(130, 1, 1);
+}
+.circle7{
+    position: fixed;
+    height: 120vw;
+    width: 120vw;
+    background-color: rgb(255, 128, 0);
+    border-radius: 50%;
+    box-shadow: inset 0 0 160px 35px rgb(130, 1, 1);
+}
+
+@font-face {
+    font-family: 'ThatIsAllFolsks';
+    src: url("../font/ThatIsAllFolks.ttf") format('truetype');
+  }
+
+.font{
+    font-family: 'ThatIsAllFolsks';
+    color: white;
+    font-size: 10rem;
+    align-items: center;
+    z-index: 0;
+    rotate: -5deg;
+}
