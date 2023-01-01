@@ -1,6 +1,5 @@
-
  function start() {
-    document.getElementById('estilo').href = "./css/style.css"
+    document.getElementById('style').href = "./css/style.css"
     document.getElementById('audio').play();
 
     function typeWriter(elemento) {
@@ -17,6 +16,10 @@
         const start = document.querySelector('.start');
         start.style.opacity = 0;
         setTimeout(() => typeWriter(intro), 1000);
+        setTimeout(() => {
+            document.getElementById('style').href = "";
+            start.style.opacity = 1;
+        }, 23400);
     
 };
 

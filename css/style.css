@@ -176,3 +176,24 @@ body, .container, html{
         animation: font 19.400s;
         animation-fill-mode: forwards;
     }
+
+  @keyframes container {
+    0%    {opacity: 1;}
+    90%    {opacity: 1;}
+    100%    {opacity: 0;}
+  }
+    
+  .container{
+      animation: container 21s;
+      animation-fill-mode: forwards;
+  }
+
+  @keyframes start {
+    0%    {opacity: 0; z-index: 0;}
+    90%    {opacity: 0; z-index: 0;}
+    100%    {opacity: 1; z-index: 1;}
+  }
+    
+  .start{
+      animation: start 23.400s;
+  }
