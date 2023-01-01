@@ -1,11 +1,3 @@
-body{
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
 body, .container, html{
     height: 100%;
   }
@@ -175,12 +167,12 @@ body, .container, html{
   }
 
   @keyframes font {
-    
-    75%    {font-size: 10rem;}
-    100%    {font-size: 0rem;}
+    0%    {font-size: 10rem;rotate: -5deg;}
+    70%    {font-size: 10rem;rotate: -5deg;}
+    100%    {font-size: 0rem;rotate: -365deg;}
   }
   
     .font{
-        animation: font 6s;
+        animation: font 19.400s;
         animation-fill-mode: forwards;
     }
