@@ -4,4 +4,4 @@
     <a href="https://thatsallfolks.netlify.app/">🐷 That's all Folks! 🐰</a>
 </h1>
 <p align="center">⬆️ Para ver basta clicar no link acima ⬆️</p>
-<h3>🚧 Em Desenvolvimento 🚧</h3>
+<h3>✅ Concluído ✅</h3>
